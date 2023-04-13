@@ -15,7 +15,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 sudo apt-get update
-sudo apt-get -y install strongswan xl2tpd
+sudo apt-get -y install strongswan xl2tpd net-tools
 
 echo "
 conn %default

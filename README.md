@@ -21,6 +21,6 @@ sudo ./disconnect.sh
 ### Cronjob
 If you need to make sure that the vpn is always connected, all you have to do is add the following job to the crontab:
 ~~~
- * * * * sudo [path]/task.sh
+ * * * * * sudo [path]/task.sh
 ~~~
 Make sure you replace [path] with the correct one for you
